@@ -1,0 +1,17 @@
+
+<h1 class="main-title">Results</h1>
+<div class="card-container">
+
+
+{{#each data.body.artists.items}}
+<div class="card">
+<h2>{{name}}</h2>
+
+<img src="{{images.0.url}}" alt="">
+
+<a class="cardBtn" href="/albums/{{id}}">View Albums</a>
+
+</div>
+{{/each}}
+
+</div>
